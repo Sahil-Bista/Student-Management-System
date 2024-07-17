@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=StudentGUI
+comment1.params=
+comment1.target=StudentGUI()
+comment1.text=\r\n\ Initializes\ the\ graphical\ user\ interface\ (GUI)\ for\ managing\ student\ data.\r\n\ Creates\ frames,\ labels,\ buttons,\ text\ fields,\ and\ combo\ boxes\ for\ regular\ and\ dropout\ students.\r\n\ Sets\ up\ event\ listeners,\ layouts,\ colors,\ and\ fonts\ for\ the\ components.\r\n\r\n\ @version\ 1.0\r\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\r\n\ Responds\ to\ user\ actions\ on\ various\ buttons\ by\ performing\ corresponding\ actions.\r\n\ Handles\ button\ clicks\ for\ opening\ frames,\ clearing\ fields,\ calculating\ percentages,\r\n\ granting\ certificates,\ paying\ bills,\ removing\ students,\ and\ adding\ students.\r\n\r\n\ @param\ e\ The\ ActionEvent\ object\ representing\ the\ user's\ action.\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ Entry\ point\ of\ the\ application.\r\n\ Initializes\ the\ graphical\ user\ interface\ (GUI)\ for\ managing\ student\ information.\r\n\ Creates\ an\ instance\ of\ the\ StudentGUI\ class\ to\ display\ the\ application\ interface.\r\n\r\n
+numComments=4

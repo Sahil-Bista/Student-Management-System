@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Regular
+comment0.text=\r\n\ This\ class\ represents\ a\ Regular\ (student)\ and\ contains\ information\ about\ the\ Regular\ students\r\n\ This\ is\ a\ subclass\ of\ the\ super\ class\ Student.\r\n\ \r\n\ Author\:Sahil\ Bista\r\n\ Version\ 1.0\r\n
+comment1.params=enrollmentID\ dateOfBirth\ courseName\ studentName\ dateOfEnrollment\ courseDuration\ tuitionFee\ numOfModules\ numOfCreditHours\ daysPresent
+comment1.target=Regular(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ double)
+comment1.text=\r\n\ Constructs\ a\ new\ Regular\ student\ object\ with\ the\ specified\ parameters.\r\n\ \r\n\ The\ constructot\ initializes\ the\ Regular\ student\ object\ by\ calling\ the\ corresponding\ methods\ in\ the\ parent\ class,\r\n\ setting\ the\ enrollmentID,course\ name\ and\ date\ Of\ Enrollment.\ It\ also\ initializes\ the\ specific\ attributes\ \r\n\ for\ Regular\ students,such\ as\ the\ number\ of\ modules,number\ of\ credit\ Hours,days\ Present\ and\ scholarship\ status.\r\n\r\n\ @param\ enrollmentID\ The\ enrollment\ ID\ of\ the\ student.\r\n\ @param\ dateOfBirth\ The\ date\ of\ Birth\ of\ the\ student.\r\n\ @param\ courseName\ The\ name\ of\ the\ course.\r\n\ @param\ studentName\ The\ name\ of\ the\ student.\r\n\ @param\ dateOfEnrollment\ The\ date\ of\ Enrollment\ of\ the\ students.\r\n\ @param\ courseDuration\ The\ duration\ of\ the\ course\ in\ months.\r\n\ @param\ tuitionFee\ The\ tuition\ fee\ for\ the\ course.\r\n\ @param\ numOfModules\ The\ number\ of\ modules\ in\ the\ course.\r\n\ @param\ numOfCreditHours\ The\ number\ of\ credit\ hours\ for\ the\ course.\r\n\ @param\ daysPresent\ The\ number\ of\ days\ the\ student\ has\ been\ present.\r\n\ \ \ \ \r\n\ \r\n\ @version1.0\r\n
+comment2.params=
+comment2.target=int\ getNumOfModules()
+comment2.text=\r\n\ Returns\ the\ number\ of\ modules\ for\ the\ Regular\ student.\r\n\ \r\n\ @return\ The\ number\ of\ modules.\r\n\ \r\n\ @version\ 1.0\r\n
+comment3.params=
+comment3.target=int\ getNumOfCreditHours()
+comment3.text=\r\n\ Returns\ the\ number\ of\ Credit\ Hours\ for\ the\ Regular\ student.\r\n\ \r\n\ @return\ The\ number\ of\ Credit\ Hours.\r\n\ \r\n\ @version\ 1.0\r\n
+comment4.params=
+comment4.target=double\ getDaysPresent()
+comment4.text=\r\n\ Returns\ the\ number\ of\ days\ presnet\ for\ the\ Regular\ student.\r\n\ \r\n\ @return\ The\ number\ of\ days\ present.\r\n\ \r\n\ @version\ 1.0\r\n
+comment5.params=
+comment5.target=boolean\ isIsGrantedscholarship()
+comment5.text=\r\n\ Returns\ the\ grating\ of\ scholarship\ for\ the\ Regular\ student.\r\n\ \r\n\ @return\ The\ is\ Granted\ Scholarship.\r\n\ \r\n\ @version\ 1.0\r\n
+comment6.params=daysPresent
+comment6.target=char\ presentPercentage(double)
+comment6.text=\r\n\ Calculates\ the\ present\ percentage\ of\ the\ Regular\ student.\r\n\ Determines\ the\ grade\ and\ scholarship\ eligibility\ based\ on\ the\ presentPercentage\r\n\ \r\n\ @param\ daysPresent\ The\ number\ of\ days\ the\ student\ has\ been\ present.\r\n\ @return\ The\ grade\ of\ the\ student('A','B','C','D','E').\r\n\ \r\n\ @version\ 1.0\r\n
+comment7.params=courseName\ enrollmentID\ dateOfEnrollment
+comment7.target=void\ grantCertificate(java.lang.String,\ int,\ java.lang.String)
+comment7.text=\r\n\ Grants\ the\ certificate\ to\ the\ student\ for\ the\ specified\ course,\ enrollmentID\ \ and\ date\ of\ Enrollment\r\n\ Displays\ a\ congratulations\ message\ for\ the\ graduation\ and\ indicates\ if\ the\ scholarship\ is\ granted.\r\n\ \r\n\ @param\ courseName\ The\ name\ of\ the\ course.\r\n\ @param\ enrollmentID\ The\ enrollment\ ID\ of\ the\ student\r\n\ @param\ dateOfEnrollment\ The\ date\ of\ enrollment.\r\n\ \r\n\ @version\ 1.0\r\n
+comment8.params=
+comment8.target=void\ display()
+numComments=9
